@@ -1,0 +1,24 @@
+.arrowBackIcon{
+  position: absolute;
+  display: flex;
+  top: 40px; 
+  left: 40px;
+  font-size: var(--normal-font-size);
+  color: #FFFFFFD9;
+}
+
+@media (max-width: 768px) {
+  .arrowBackIcon {
+    top: 40px;
+    left: 40px;
+    font-size: var(--tablet-font-size);
+  }
+}
+  
+@media (max-width: 480px) {
+  .arrowBackIcon {
+    top: 30px;
+    left: 30px;
+    font-size: var(--phone-font-size);
+  }
+}
